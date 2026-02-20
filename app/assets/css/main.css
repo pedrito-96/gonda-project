@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+
+@theme {
+  /* font */
+  --font-primary: 'Lora', sans-serif;
+
+  /* colors */
+  --color-primary: #5e7e99;
+  --color-secondary-dark: #753d23;
+  --color-secondary-light: #b2a08d;
+  --color-tertiary: #d9dfec;
+}
+
+@layer components {
+  body {
+    font-family: "Lora", sans-serif;
+  }
+
+  :focus-visible {
+    outline: var(--color-focus) auto 1px;
+    outline-offset: 4px;
+    transition: none !important;
+  }
+}
