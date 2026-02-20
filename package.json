@@ -11,7 +11,8 @@
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",
-    "lint:fix": "oxlint --fix"
+    "lint:fix": "oxlint --fix",
+    "clean-project": "rm -rf node_modules bun.lockb .nuxt"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.0",

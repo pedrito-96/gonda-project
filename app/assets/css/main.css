@@ -2,6 +2,12 @@
 @import "tailwindcss";
 
 @theme {
+  /* Breakpoints */
+  --breakpoint-sm: 375px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1440px;
+
   /* font */
   --font-primary: "Lora", sans-serif;
 
@@ -15,6 +21,7 @@
 @layer components {
   body {
     font-family: "Lora", sans-serif;
+    background-color: yellowgreen;
   }
 
   :focus-visible {
