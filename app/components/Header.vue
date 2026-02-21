@@ -1,12 +1,24 @@
+<script setup lang="ts">
+onMounted(() => {
+  const isChrome =
+    /Chrome/.test(navigator.userAgent) && !/Edg|OPR/.test(navigator.userAgent);
+
+  console.log(navigator.userAgent);
+  if (isChrome) {
+    const headerCard = document.getElementById("header-card");
+    if (headerCard) headerCard.classList.add("is-chrome");
+  }
+});
+</script>
 <template>
   <div class="flex items-center justify-center m-4">
-    <div class="card p-6 md:p-8">
+    <div id="header-card" class="card px-8 py-2">
       <div class="flex flex-row justify-between items-center w-full">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 400 160"
           fill="currentColor"
-          class="w-48 md:w-64 h-auto shrink-0"
+          class="w-32 md:w-48 h-auto shrink-0"
         >
           <text
             x="50%"
@@ -43,13 +55,13 @@
           </text>
         </svg>
 
-        <ul class="flex gap-10">
+        <ul class="hidden md:flex gap-10">
           <li>CHI</li>
           <li>CHI</li>
           <li>CHI</li>
         </ul>
+        <div class="block md:hidden">\\\</div>
       </div>
-      +
     </div>
 
     <svg style="display: none">
@@ -57,14 +69,14 @@
         <feTurbulence
           type="turbulence"
           baseFrequency="0.01"
-          numOctaves="2"
+          numOctaves="1"
           result="turbulence"
         />
 
         <feDisplacementMap
           in="SourceGraphic"
           in2="turbulence"
-          scale="200"
+          scale="30"
           xChannelSelector="R"
           yChannelSelector="G"
         />
@@ -87,7 +99,12 @@
   transition: opacity 0.26s ease-out;
   border-radius: 48px;
   filter: drop-shadow(-8px -10px 46px #0000005f);
-  backdrop-filter: brightness(1.1) blur(2px) url(#displacementFilter);
+  -webkit-backdrop-filter: brightness(1) blur(10px);
+  backdrop-filter: brightness(1) blur(10px);
+}
+
+.is-chrome .card {
+  backdrop-filter: brightness(1.1) blur(4px) url(#displacementFilter);
 }
 
 .card::before {
