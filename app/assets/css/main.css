@@ -21,7 +21,6 @@
 @layer components {
   body {
     font-family: "Lora", sans-serif;
-    background-color: yellowgreen;
   }
 
   :focus-visible {

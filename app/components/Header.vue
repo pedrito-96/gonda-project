@@ -1,11 +1,55 @@
 <template>
   <div class="flex items-center justify-center m-4">
     <div class="card p-6 md:p-8">
-      <ul class="flex gap-10">
-        <li>CHI</li>
-        <li>CHI</li>
-        <li>CHI</li>
-      </ul>
+      <div class="flex flex-row justify-between items-center w-full">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 400 160"
+          fill="currentColor"
+          class="w-48 md:w-64 h-auto shrink-0"
+        >
+          <text
+            x="50%"
+            y="45"
+            text-anchor="middle"
+            font-family="serif"
+            font-weight="800"
+            font-size="28"
+            letter-spacing="-0.5"
+          >
+            Dott.ssa
+          </text>
+          <text
+            x="50%"
+            y="105"
+            text-anchor="middle"
+            font-family="serif"
+            font-weight="500"
+            font-size="58"
+            letter-spacing="-1"
+          >
+            Greta Pianegonda
+          </text>
+          <text
+            x="50%"
+            y="145"
+            text-anchor="middle"
+            font-family="sans-serif"
+            font-weight="300"
+            font-size="22"
+            letter-spacing="14"
+          >
+            NUTRIZIONISTA
+          </text>
+        </svg>
+
+        <ul class="flex gap-10">
+          <li>CHI</li>
+          <li>CHI</li>
+          <li>CHI</li>
+        </ul>
+      </div>
+      +
     </div>
 
     <svg style="display: none">
