@@ -103,7 +103,7 @@ onMounted(() => {
   backdrop-filter: brightness(1) blur(10px);
 }
 
-.is-chrome .card {
+.is-chrome.card {
   backdrop-filter: brightness(1.1) blur(4px) url(#displacementFilter);
 }
 
