@@ -18,6 +18,15 @@
   --color-tertiary: #d9dfec;
 }
 
+:root {
+  --header-height: 68px;
+  --footer-height: 64px;
+  @media (min-width: theme(--breakpoint-md)) {
+    --header-height: 92px;
+    --footer-height: 64px;
+  }
+}
+
 @layer components {
   body {
     font-family: "Lora", sans-serif;

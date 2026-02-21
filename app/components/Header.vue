@@ -11,7 +11,7 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="flex items-center justify-center m-4">
+  <div class="flex items-center justify-center my-4 mx-2 md:mx-4">
     <div id="header-card" class="card px-8 py-2">
       <div class="flex flex-row justify-between items-center w-full">
         <svg
