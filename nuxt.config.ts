@@ -4,8 +4,11 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
-  css: ["@/assets/css/main.css"],
-  modules: ["@nuxt/icon"],
+  css: ["./app/assets/css/main.css"],
+  modules: ["@nuxt/icon", "@vueuse/nuxt", "@nuxt/image"],
+  alias: {
+    "@": "/<rootDir>/app",
+  },
   icon: {
     customCollections: [
       {
@@ -15,6 +18,14 @@ export default defineNuxtConfig({
         // recursive: true,
       },
     ],
+  },
+  image: {
+    // Options
+  },
+  router: {
+    options: {
+      scrollBehaviorType: "smooth",
+    },
   },
   vite: {
     plugins: [tailwindcss()] as any,

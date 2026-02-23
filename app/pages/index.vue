@@ -1,4 +1,6 @@
 <template>
-  <h2>Welcome to Layouts example</h2>
-  <Test></Test>
+  <SectionHero />
+  <SectionAboutMe />
+  <SectionServices />
+  <SectionContacts />
 </template>

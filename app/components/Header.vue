@@ -14,51 +14,59 @@ onMounted(() => {
   <div class="flex items-center justify-center my-4 mx-2 md:mx-4">
     <div id="header-card" class="card px-8 py-2">
       <div class="flex flex-row justify-between items-center w-full">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 400 160"
-          fill="currentColor"
-          class="w-32 md:w-48 h-auto shrink-0"
-        >
-          <text
-            x="50%"
-            y="45"
-            text-anchor="middle"
-            font-family="serif"
-            font-weight="800"
-            font-size="28"
-            letter-spacing="-0.5"
+        <NuxtLink to="/" class="z-40">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 400 160"
+            fill="currentColor"
+            class="w-32 md:w-48 h-auto shrink-0"
           >
-            Dott.ssa
-          </text>
-          <text
-            x="50%"
-            y="105"
-            text-anchor="middle"
-            font-family="serif"
-            font-weight="500"
-            font-size="58"
-            letter-spacing="-1"
-          >
-            Greta Pianegonda
-          </text>
-          <text
-            x="50%"
-            y="145"
-            text-anchor="middle"
-            font-family="sans-serif"
-            font-weight="300"
-            font-size="22"
-            letter-spacing="14"
-          >
-            NUTRIZIONISTA
-          </text>
-        </svg>
+            <text
+              x="50%"
+              y="45"
+              text-anchor="middle"
+              font-family="serif"
+              font-weight="800"
+              font-size="28"
+              letter-spacing="-0.5"
+            >
+              Dott.ssa
+            </text>
+            <text
+              x="50%"
+              y="105"
+              text-anchor="middle"
+              font-family="serif"
+              font-weight="500"
+              font-size="58"
+              letter-spacing="-1"
+            >
+              Greta Pianegonda
+            </text>
+            <text
+              x="50%"
+              y="145"
+              text-anchor="middle"
+              font-family="sans-serif"
+              font-weight="300"
+              font-size="22"
+              letter-spacing="14"
+            >
+              NUTRIZIONISTA
+            </text>
+          </svg>
+        </NuxtLink>
 
-        <ul class="hidden md:flex gap-10">
-          <li>CHI</li>
-          <li>CHI</li>
-          <li>CHI</li>
+        <ul class="hidden md:flex gap-10 z-40">
+          <li>
+            <NuxtLink to="/#about-me"> CHI SONO </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/#services"> SERVIZI </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/#contacts"> CONTATTI </NuxtLink>
+          </li>
         </ul>
         <div class="block md:hidden">\\\</div>
       </div>
@@ -88,7 +96,7 @@ onMounted(() => {
 <style scoped>
 .card {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1800px;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
