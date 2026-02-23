@@ -8,12 +8,13 @@ export default defineNuxtConfig({
   modules: ["@nuxt/icon", "@vueuse/nuxt", "@nuxt/image"],
   alias: {
     "@": "/<rootDir>/app",
+    "~": "/<rootDir>",
   },
   icon: {
     customCollections: [
       {
         prefix: "icon",
-        dir: "@/assets/icons",
+        dir: "./app/assets/icons",
         // if you want to include all the icons in nested directories:
         // recursive: true,
       },

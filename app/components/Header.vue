@@ -11,7 +11,7 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="flex items-center justify-center my-4 mx-2 md:mx-4">
+  <div class="flex items-center justify-center my-4 mx-2 md:mx-4 text-tertiary">
     <div id="header-card" class="card px-8 py-2">
       <div class="flex flex-row justify-between items-center w-full">
         <NuxtLink to="/" class="z-40">
@@ -84,7 +84,7 @@ onMounted(() => {
         <feDisplacementMap
           in="SourceGraphic"
           in2="turbulence"
-          scale="30"
+          scale="50"
           xChannelSelector="R"
           yChannelSelector="G"
         />

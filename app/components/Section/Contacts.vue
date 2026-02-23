@@ -1,3 +1,3 @@
 <template>
-  <section id="contacts" class="min-h-dvh bg-red-400">CONTACTS</section>
+  <section id="contacts" class="min-h-dvh bg-secondary-dark">CONTACTS</section>
 </template>
