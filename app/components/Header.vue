@@ -65,7 +65,12 @@ onMounted(() => {
             <NuxtLink to="/#services"> SERVIZI </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#contacts"> CONTATTI </NuxtLink>
+            <NuxtLink
+              to="/#contacts"
+              class="cta py-2 px-4 bg-tertiary text-secondary-dark hover:scale-100 rounded-3xl hover:shadow-md transition-colors"
+            >
+              CONTATTAMI
+            </NuxtLink>
           </li>
         </ul>
         <div class="block md:hidden">\\\</div>
