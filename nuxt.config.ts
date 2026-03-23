@@ -5,6 +5,12 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
   css: ["./app/assets/css/main.css"],
+  runtimeConfig: {
+    public: {
+      formspree_id: process.env.NUXT_PUBLIC_FORMSPREE_ID,
+    },
+  },
+
   modules: ["@nuxt/icon", "@vueuse/nuxt", "@nuxt/image"],
   alias: {
     "@": "/<rootDir>/app",
