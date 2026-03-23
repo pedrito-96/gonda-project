@@ -35,15 +35,6 @@ const {
     >
       <h1 style="--i: 1" class="text-4xl">Lorem</h1>
       <div style="--i: 2" class="relative">
-        <!-- <span
-            :class="[
-              {
-                'animate-vertical-bounce opacity-100':
-                  isAnimationContainerInViewport,
-              },
-              'absolute bg-white w-px h-full opacity-0 transition-opacity duration-1000',
-            ]"
-          /> -->
         <p
           class="[&_a]:text-invert [&_a]:hover:text-invert text-paragraph-sm max-w-2xl pl-xl"
         >

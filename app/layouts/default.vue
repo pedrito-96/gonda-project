@@ -1,3 +1,23 @@
+<script setup lang="ts">
+const { y } = useWindowScroll();
+const isVisible = ref(true);
+const lastScrollY = ref(0);
+
+watch(y, (currentY) => {
+  if (currentY < 100) {
+    isVisible.value = true;
+    return;
+  }
+
+  if (currentY > lastScrollY.value) {
+    isVisible.value = false; // Hide on scroll down
+  } else {
+    isVisible.value = true; // Show on scroll up
+  }
+
+  lastScrollY.value = currentY;
+});
+</script>
 <template>
   <div class="flex flex-col">
     <div
@@ -10,7 +30,10 @@
         <Icon name="icon-whatsapp" class="text-white text-5xl" />
       </a>
     </div>
-    <Header class="fixed top-0 left-0 right-0 z-40" />
+    <Header
+      class="fixed top-0 left-0 right-0 z-40 transition-transform duration-300 ease-in-out"
+      :class="isVisible ? 'translate-y-0' : '-translate-y-[calc(100%+1rem)]'"
+    />
     <div
       role="main"
       class="w-full mx-auto flex-1 min-h-[calc(100dvh-var(--footer-height))]"
@@ -20,24 +43,3 @@
     <Footer />
   </div>
 </template>
-
-<style lang="css" scoped>
-@keyframes pulsating-button {
-  0% {
-    scale: 1;
-  }
-  50% {
-    scale: 1.1;
-  }
-  100% {
-    scale: 1;
-  }
-}
-
-.whatsapp {
-  animation-name: pulsating-button;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-}
-</style>

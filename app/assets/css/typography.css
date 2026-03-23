@@ -1,0 +1,9 @@
+@layer utilities {
+  .text-section-title {
+    @apply text-4xl font-medium;
+  }
+
+  .text-body {
+    @apply text-base;
+  }
+}

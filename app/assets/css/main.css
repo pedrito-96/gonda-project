@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 @import "tailwindcss";
 @import "./animations.css";
+@import "./typography.css";
 
 @theme {
   /* Breakpoints */
@@ -17,6 +18,8 @@
   --color-secondary-dark: #753d23;
   --color-secondary-light: #b2a08d;
   --color-tertiary: #d9dfec;
+  --color-dark: #181818;
+  --color-focus: #0050cb;
 }
 
 :root {

@@ -3,7 +3,6 @@ onMounted(() => {
   const isChrome =
     /Chrome/.test(navigator.userAgent) && !/Edg|OPR/.test(navigator.userAgent);
 
-  console.log(navigator.userAgent);
   if (isChrome) {
     const headerCard = document.getElementById("header-card");
     if (headerCard) headerCard.classList.add("is-chrome");
@@ -64,10 +63,12 @@ onMounted(() => {
           <li>
             <NuxtLink to="/#services"> SERVIZI </NuxtLink>
           </li>
-          <li>
+          <li
+            class="hover:scale-102 hover:shadow-md transition-[scale,shadow] rounded-3xl"
+          >
             <NuxtLink
               to="/#contacts"
-              class="cta py-2 px-4 bg-tertiary text-secondary-dark hover:scale-100 rounded-3xl hover:shadow-md transition-colors"
+              class="cta py-2 px-4 bg-tertiary text-secondary-dark rounded-3xl"
             >
               CONTATTAMI
             </NuxtLink>
