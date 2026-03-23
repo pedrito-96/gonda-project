@@ -13,7 +13,7 @@ onMounted(() => {
       proprietà. Riproduzione vietata.
     </p>
 
-    <div class="socials flex items-center max-md:order-1">
+    <div class="socials flex items-center max-md:order-1 gap-2 md:gap-4">
       <NuxtLink
         to="https://www.linkedin.com/in/greta-pianegonda-188ba6172/"
         target=":blank"
@@ -21,6 +21,14 @@ onMounted(() => {
         class="flex items-center"
       >
         <Icon name="icon-linkedin" class="text-xl" />
+      </NuxtLink>
+      <NuxtLink
+        to="https://www.instagram.com/nutrizionista_pianegonda/"
+        target=":blank"
+        external
+        class="flex items-center"
+      >
+        <Icon name="icon-instagram" class="text-xl text-tertiary" />
       </NuxtLink>
     </div>
   </footer>
