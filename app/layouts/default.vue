@@ -36,7 +36,7 @@ watch(y, (currentY) => {
     />
     <div
       role="main"
-      class="w-full mx-auto flex-1 min-h-[calc(100dvh-var(--footer-height))]"
+      class="w-full mx-auto flex-1 min-h-[calc(100svh-var(--footer-height))]"
     >
       <slot />
     </div>
