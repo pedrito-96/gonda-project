@@ -7,7 +7,7 @@ const {
 </script>
 <template>
   <section
-    class="relative w-full h-dvh overflow-hidden px-gapped-x py-xxl flex flex-col justify-end"
+    class="relative w-full h-svh overflow-hidden px-gapped-x py-xxl flex flex-col justify-end"
   >
     <div class="absolute inset-0">
       <div class="w-full h-full relative">
