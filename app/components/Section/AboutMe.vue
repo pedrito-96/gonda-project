@@ -25,7 +25,7 @@ onUnmounted(() => {
     id="about-me"
     class="relative min-h-dvh bg-primary flex justify-center items-center overflow-hidden"
   >
-    <Avatar class="z-10" />
+    <AtomsAvatar class="z-10" />
 
     <div
       ref="parallaxRef"

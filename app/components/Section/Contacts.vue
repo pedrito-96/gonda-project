@@ -11,7 +11,9 @@
           </p>
         </div>
       </div>
-      <ContactForm class="cols-span-1 flex justify-center items-center" />
+      <OrganismsContactForm
+        class="cols-span-1 flex justify-center items-center"
+      />
     </div>
   </section>
 </template>

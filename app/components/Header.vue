@@ -8,7 +8,13 @@ onMounted(() => {
     if (headerCard) headerCard.classList.add("is-chrome");
   }
 });
+
+const isOpen = ref(false);
+const toggleMenu = () => {
+  isOpen.value = !isOpen.value;
+};
 </script>
+
 <template>
   <div class="flex items-center justify-center my-4 mx-2 md:mx-4 text-tertiary">
     <div id="header-card" class="card px-8 py-2">
@@ -74,8 +80,11 @@ onMounted(() => {
             </NuxtLink>
           </li>
         </ul>
-        <div class="block md:hidden">\\\</div>
+
+        <AtomsMenuButton :is-open="isOpen" @toggle="toggleMenu" />
       </div>
+
+      <MoleculesMobileDrawer :is-open="isOpen" />
     </div>
 
     <svg style="display: none">
@@ -86,7 +95,6 @@ onMounted(() => {
           numOctaves="1"
           result="turbulence"
         />
-
         <feDisplacementMap
           in="SourceGraphic"
           in2="turbulence"
@@ -118,7 +126,7 @@ onMounted(() => {
 }
 
 .is-chrome.card {
-  backdrop-filter: brightness(1.1) blur(4px) url(#displacementFilter);
+  backdrop-filter: brightness(1) blur(8px) url(#displacementFilter);
 }
 
 .card::before {

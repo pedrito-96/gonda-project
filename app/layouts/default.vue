@@ -32,8 +32,8 @@ watch(y, (currentY) => {
     </div>
     <Header
       class="fixed top-0 left-0 right-0 z-40 transition-transform duration-300 ease-in-out"
-      :class="isVisible ? 'translate-y-0' : '-translate-y-[calc(100%+1rem)]'"
     />
+    <!-- :class="isVisible ? 'translate-y-0' : '-translate-y-[calc(100%+1rem)]'" -->
     <div
       role="main"
       class="w-full mx-auto flex-1 min-h-[calc(100svh-var(--footer-height))]"
