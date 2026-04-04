@@ -30,6 +30,7 @@ defineProps<{ isOpen: boolean }>();
   max-height: 0;
   overflow: hidden;
   opacity: 0;
+  z-index: 20;
   transition:
     max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1),
     opacity 0.35s ease;

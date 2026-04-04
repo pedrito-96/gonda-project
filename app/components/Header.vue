@@ -19,47 +19,11 @@ const toggleMenu = () => {
   <div class="flex items-center justify-center my-4 mx-2 md:mx-4 text-tertiary">
     <div id="header-card" class="card px-8 py-2">
       <div class="flex flex-row justify-between items-center w-full">
-        <NuxtLink to="/" class="z-40">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 400 160"
-            fill="currentColor"
-            class="w-32 md:w-48 h-auto shrink-0"
-          >
-            <text
-              x="50%"
-              y="45"
-              text-anchor="middle"
-              font-family="serif"
-              font-weight="800"
-              font-size="28"
-              letter-spacing="-0.5"
-            >
-              Dott.ssa
-            </text>
-            <text
-              x="50%"
-              y="105"
-              text-anchor="middle"
-              font-family="serif"
-              font-weight="500"
-              font-size="58"
-              letter-spacing="-1"
-            >
-              Greta Pianegonda
-            </text>
-            <text
-              x="50%"
-              y="145"
-              text-anchor="middle"
-              font-family="sans-serif"
-              font-weight="300"
-              font-size="22"
-              letter-spacing="14"
-            >
-              NUTRIZIONISTA
-            </text>
-          </svg>
+        <NuxtLink to="/" class="z-40 py-1 md:py-2">
+          <Icon
+            name="icon-logo-horizontal"
+            class="text-[38px] md:text-[60px]"
+          />
         </NuxtLink>
 
         <ul class="hidden md:flex gap-10 z-40">

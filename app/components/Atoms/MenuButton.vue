@@ -4,7 +4,7 @@ const emit = defineEmits<{ toggle: [] }>();
 </script>
 
 <template>
-  <label class="hamburger md:hidden z-50 p-2 cursor-pointer">
+  <label class="hamburger flex md:hidden z-50 p-2 cursor-pointer">
     <input
       type="checkbox"
       class="hamburger__input"
@@ -19,7 +19,6 @@ const emit = defineEmits<{ toggle: [] }>();
 
 <style lang="css" scoped>
 .hamburger {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
