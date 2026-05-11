@@ -43,7 +43,7 @@ const {
       </span>
       <h1
         style="--i: 2"
-        class="text-4xl md:text-6xl font-medium leading-tight"
+        class="text-4xl md:text-6xl font-medium leading-tight -mt-4"
       >
         {{ $t("hero.name") }}
       </h1>

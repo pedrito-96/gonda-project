@@ -29,6 +29,15 @@ onMounted(() => {
       >
         <Icon name="icon-instagram" class="text-xl text-tertiary" />
       </NuxtLink>
+      <NuxtLink
+        to="https://www.facebook.com/Biologa-Nutrizionista-Pianegonda"
+        target="_blank"
+        external
+        aria-label="Facebook"
+        class="flex items-center"
+      >
+        <Icon name="mdi:facebook" class="text-xl text-tertiary" />
+      </NuxtLink>
     </div>
   </footer>
 </template>
