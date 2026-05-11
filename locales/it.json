@@ -5,30 +5,68 @@
     "contact": "CONTATTAMI"
   },
   "hero": {
-    "title": "Lorem",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro praesentium aliquam ipsam eum nostrum quam, assumenda, molestiae ea voluptas sunt earum qui non tempora totam blanditiis magni soluta eaque sapiente?"
+    "name": "Greta Pianegonda",
+    "role": "Biologa Nutrizionista",
+    "tagline": "Educazione alimentare per scelte consapevoli, ogni giorno.",
+    "cta_primary": "Prenota una consulenza",
+    "cta_secondary": "Scopri di più"
+  },
+  "about": {
+    "eyebrow": "Chi sono",
+    "title": "Un approccio basato sull'educazione alimentare",
+    "intro": "Sono Greta Pianegonda, Biologa Nutrizionista. Il mio approccio si fonda sull'educazione alimentare, strumento che rende autonomi e consapevoli nelle proprie scelte quotidiane.",
+    "registry_label": "Iscritta all'Ordine dei Biologi di",
+    "registry_regions": "Veneto · Friuli Venezia Giulia · Trentino Alto Adige",
+    "method_title": "Il metodo 3A",
+    "method": {
+      "listen_title": "Ascolto",
+      "listen_desc": "Valutazione dello stile di vita e delle preferenze alimentari.",
+      "analyze_title": "Analisi",
+      "analyze_desc": "Misurazioni antropometriche e studio del fabbisogno energetico.",
+      "act_title": "Azione",
+      "act_desc": "Piano flessibile, sostenibile e cucito attorno ai tuoi ritmi quotidiani."
+    }
   },
   "services": {
-    "title": "SERVIZI"
+    "eyebrow": "Cosa faccio",
+    "title": "Servizi",
+    "items": {
+      "plans_title": "Piani Alimentari Personalizzati",
+      "plans_desc": "Strategie su misura per raggiungere obiettivi di salute, benessere e ricomposizione corporea.",
+      "sport_title": "Nutrizione per Sportivi Amatoriali",
+      "sport_desc": "Ottimizza energie durante gli allenamenti e migliora il recupero post-attività.",
+      "plant_title": "Alimentazione Plant-Based",
+      "plant_desc": "Supporto per diete vegetariane e vegane, con apporto nutrizionale adeguato e prevenzione delle carenze."
+    }
   },
   "contacts": {
+    "eyebrow": "Dove trovarmi",
     "title": "Contatti",
-    "intro1": "Sei pronto a iniziare il tuo percorso?",
-    "intro2": "Contattami per una consulenza o per qualsiasi domanda tu possa avere."
+    "intro1": "Pronto a iniziare il tuo percorso?",
+    "intro2": "Contattami per una consulenza o per qualsiasi domanda.",
+    "locations_title": "Studi",
+    "location_sarcedo_name": "Sarcedo",
+    "location_sarcedo_addr": "Via Generale A. dalla Chiesa, 5 — 36030 (VI)",
+    "location_sarcedo_venue": "presso Snatch | Studio di Fisioterapia",
+    "location_zane_name": "Zanè",
+    "location_zane_addr": "Via Trento, 24 — 36010 (VI)",
+    "location_zane_venue": "presso Officina Botanica",
+    "phone_label": "Telefono",
+    "email_label": "Email"
   },
   "form": {
-    "title": "Contattami",
+    "title": "Scrivimi",
     "name": "Nome *",
     "email": "Email *",
     "phone": "Telefono",
     "message": "Messaggio *",
-    "submit": "Invia"
+    "submit": "Invia richiesta"
   },
   "footer": {
     "rights": "© {year} Greta Pianegonda. Tutti i diritti riservati. Foto di proprietà. Riproduzione vietata."
   },
   "alt": {
-    "hero": "Immagine hero",
+    "hero": "Ritratto Greta Pianegonda",
     "isobars": "Sfondo isobare"
   }
 }

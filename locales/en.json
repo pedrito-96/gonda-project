@@ -5,30 +5,68 @@
     "contact": "CONTACT ME"
   },
   "hero": {
-    "title": "Lorem",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro praesentium aliquam ipsam eum nostrum quam, assumenda, molestiae ea voluptas sunt earum qui non tempora totam blanditiis magni soluta eaque sapiente?"
+    "name": "Greta Pianegonda",
+    "role": "Nutrition Biologist",
+    "tagline": "Food education for conscious choices, every day.",
+    "cta_primary": "Book a consultation",
+    "cta_secondary": "Learn more"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "An approach built on food education",
+    "intro": "I'm Greta Pianegonda, Nutrition Biologist. My approach is grounded in food education — a tool that makes you autonomous and aware in your daily choices.",
+    "registry_label": "Registered with the Order of Biologists of",
+    "registry_regions": "Veneto · Friuli Venezia Giulia · Trentino Alto Adige",
+    "method_title": "The 3A method",
+    "method": {
+      "listen_title": "Listen",
+      "listen_desc": "Assessment of lifestyle and food preferences.",
+      "analyze_title": "Analyze",
+      "analyze_desc": "Anthropometric measurements and energy requirement study.",
+      "act_title": "Act",
+      "act_desc": "A flexible, sustainable plan tailored to your daily rhythms."
+    }
   },
   "services": {
-    "title": "SERVICES"
+    "eyebrow": "What I do",
+    "title": "Services",
+    "items": {
+      "plans_title": "Personalized Nutrition Plans",
+      "plans_desc": "Tailored strategies to reach health, wellness and body recomposition goals.",
+      "sport_title": "Nutrition for Amateur Athletes",
+      "sport_desc": "Optimize energy during training and improve post-activity recovery.",
+      "plant_title": "Plant-Based Nutrition",
+      "plant_desc": "Support for vegetarian and vegan diets with adequate nutrient intake and deficiency prevention."
+    }
   },
   "contacts": {
+    "eyebrow": "Where to find me",
     "title": "Contacts",
-    "intro1": "Are you ready to start your journey?",
-    "intro2": "Contact me for a consultation or any question you may have."
+    "intro1": "Ready to start your journey?",
+    "intro2": "Reach out for a consultation or any question you may have.",
+    "locations_title": "Studios",
+    "location_sarcedo_name": "Sarcedo",
+    "location_sarcedo_addr": "Via Generale A. dalla Chiesa, 5 — 36030 (VI)",
+    "location_sarcedo_venue": "at Snatch | Physiotherapy Studio",
+    "location_zane_name": "Zanè",
+    "location_zane_addr": "Via Trento, 24 — 36010 (VI)",
+    "location_zane_venue": "at Officina Botanica",
+    "phone_label": "Phone",
+    "email_label": "Email"
   },
   "form": {
-    "title": "Contact me",
+    "title": "Write to me",
     "name": "Name *",
     "email": "Email *",
     "phone": "Phone",
     "message": "Message *",
-    "submit": "Send"
+    "submit": "Send request"
   },
   "footer": {
     "rights": "© {year} Greta Pianegonda. All rights reserved. Photos are proprietary. Reproduction forbidden."
   },
   "alt": {
-    "hero": "Hero image",
+    "hero": "Portrait of Greta Pianegonda",
     "isobars": "Isobars background"
   }
 }
