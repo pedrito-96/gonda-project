@@ -5,10 +5,12 @@
       method="POST"
       class="w-full max-w-2xl bg-tertiary text-black p-6 rounded-lg shadow-2xl"
     >
-      <h2 class="text-2xl font-bold mb-6 text-center">Contattami</h2>
+      <h2 class="text-2xl font-bold mb-6 text-center">
+        {{ $t("form.title") }}
+      </h2>
 
       <div class="mb-4">
-        <label for="name" class="block mb-2">Nome *</label>
+        <label for="name" class="block mb-2">{{ $t("form.name") }}</label>
         <input
           id="name"
           type="text"
@@ -19,7 +21,7 @@
       </div>
 
       <div class="mb-4">
-        <label for="email" class="block mb-2">Email *</label>
+        <label for="email" class="block mb-2">{{ $t("form.email") }}</label>
         <input
           id="email"
           type="email"
@@ -30,7 +32,7 @@
       </div>
 
       <div class="mb-4">
-        <label for="phone" class="block mb-2">Telefono</label>
+        <label for="phone" class="block mb-2">{{ $t("form.phone") }}</label>
         <input
           id="phone"
           type="tel"
@@ -40,7 +42,7 @@
       </div>
 
       <div class="mb-6">
-        <label for="message" class="block mb-2">Messaggio *</label>
+        <label for="message" class="block mb-2">{{ $t("form.message") }}</label>
         <textarea
           id="message"
           name="message"
@@ -54,7 +56,7 @@
         type="submit"
         class="w-full bg-primary text-white font-bold py-2 px-4 rounded cursor-pointer hover:scale-102 hover:shadow-md transition-all"
       >
-        Invia
+        {{ $t("form.submit") }}
       </button>
     </form>
   </div>

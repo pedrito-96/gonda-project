@@ -28,10 +28,10 @@ const toggleMenu = () => {
 
         <ul class="hidden md:flex gap-10 z-40">
           <li>
-            <NuxtLink to="/#about-me"> CHI SONO </NuxtLink>
+            <NuxtLink to="/#about-me">{{ $t("nav.about") }}</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/#services"> SERVIZI </NuxtLink>
+            <NuxtLink to="/#services">{{ $t("nav.services") }}</NuxtLink>
           </li>
           <li
             class="hover:scale-102 hover:shadow-md transition-[scale,shadow] rounded-3xl"
@@ -40,7 +40,7 @@ const toggleMenu = () => {
               to="/#contacts"
               class="cta py-2 px-4 bg-tertiary text-secondary-dark rounded-3xl"
             >
-              CONTATTAMI
+              {{ $t("nav.contact") }}
             </NuxtLink>
           </li>
         </ul>

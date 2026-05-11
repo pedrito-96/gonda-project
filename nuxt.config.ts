@@ -11,7 +11,17 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/icon", "@vueuse/nuxt", "@nuxt/image"],
+  modules: ["@nuxt/icon", "@vueuse/nuxt", "@nuxt/image", "nuxt-i18n-micro"],
+  i18n: {
+    locales: [
+      { code: "it", iso: "it-IT", displayName: "Italiano" },
+      { code: "en", iso: "en-US", displayName: "English" },
+    ],
+    defaultLocale: "it",
+    translationDir: "locales",
+    meta: true,
+    localeCookie: "user-locale",
+  },
   alias: {
     "@": "/<rootDir>/app",
     "~": "/<rootDir>",

@@ -3,12 +3,9 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-(--header-height)">
       <div class="cols-span-1 text-white">
         <div>
-          <h2 class="text-section-title mb-4">Contatti</h2>
-          <p>Sei pronto a iniziare il tuo percorso?</p>
-          <p>
-            Contattami per una consulenza o per qualsiasi domanda tu possa
-            avere.
-          </p>
+          <h2 class="text-section-title mb-4">{{ $t("contacts.title") }}</h2>
+          <p>{{ $t("contacts.intro1") }}</p>
+          <p>{{ $t("contacts.intro2") }}</p>
         </div>
       </div>
       <OrganismsContactForm

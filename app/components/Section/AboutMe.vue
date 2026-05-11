@@ -41,7 +41,7 @@ onUnmounted(() => {
         sizes="80vw md:80vw lg:90vw xl:90vw xxl:90vw"
         quality="90"
         src="./isobars-light.png"
-        alt="Isobars background"
+        :alt="$t('alt.isobars')"
       />
     </div>
   </section>

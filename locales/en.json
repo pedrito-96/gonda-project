@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "about": "ABOUT",
+    "services": "SERVICES",
+    "contact": "CONTACT ME"
+  },
+  "hero": {
+    "title": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro praesentium aliquam ipsam eum nostrum quam, assumenda, molestiae ea voluptas sunt earum qui non tempora totam blanditiis magni soluta eaque sapiente?"
+  },
+  "services": {
+    "title": "SERVICES"
+  },
+  "contacts": {
+    "title": "Contacts",
+    "intro1": "Are you ready to start your journey?",
+    "intro2": "Contact me for a consultation or any question you may have."
+  },
+  "form": {
+    "title": "Contact me",
+    "name": "Name *",
+    "email": "Email *",
+    "phone": "Phone",
+    "message": "Message *",
+    "submit": "Send"
+  },
+  "footer": {
+    "rights": "© {year} Greta Pianegonda. All rights reserved. Photos are proprietary. Reproduction forbidden."
+  },
+  "alt": {
+    "hero": "Hero image",
+    "isobars": "Isobars background"
+  }
+}

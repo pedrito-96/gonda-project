@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "about": "CHI SONO",
+    "services": "SERVIZI",
+    "contact": "CONTATTAMI"
+  },
+  "hero": {
+    "title": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro praesentium aliquam ipsam eum nostrum quam, assumenda, molestiae ea voluptas sunt earum qui non tempora totam blanditiis magni soluta eaque sapiente?"
+  },
+  "services": {
+    "title": "SERVIZI"
+  },
+  "contacts": {
+    "title": "Contatti",
+    "intro1": "Sei pronto a iniziare il tuo percorso?",
+    "intro2": "Contattami per una consulenza o per qualsiasi domanda tu possa avere."
+  },
+  "form": {
+    "title": "Contattami",
+    "name": "Nome *",
+    "email": "Email *",
+    "phone": "Telefono",
+    "message": "Messaggio *",
+    "submit": "Invia"
+  },
+  "footer": {
+    "rights": "© {year} Greta Pianegonda. Tutti i diritti riservati. Foto di proprietà. Riproduzione vietata."
+  },
+  "alt": {
+    "hero": "Immagine hero",
+    "isobars": "Sfondo isobare"
+  }
+}

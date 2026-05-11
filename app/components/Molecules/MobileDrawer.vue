@@ -6,10 +6,10 @@ defineProps<{ isOpen: boolean }>();
   <div role="menu" :aria-expanded="isOpen" class="menu-drawer w-full">
     <ul class="flex flex-col items-center gap-8 py-10 md:hidden">
       <li>
-        <NuxtLink to="/#about-me"> CHI SONO </NuxtLink>
+        <NuxtLink to="/#about-me">{{ $t("nav.about") }}</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/#services"> SERVIZI </NuxtLink>
+        <NuxtLink to="/#services">{{ $t("nav.services") }}</NuxtLink>
       </li>
       <li
         class="hover:scale-102 hover:shadow-md transition-[scale,shadow] rounded-3xl"
@@ -18,7 +18,7 @@ defineProps<{ isOpen: boolean }>();
           to="/#contacts"
           class="cta py-2 px-4 bg-tertiary text-secondary-dark rounded-3xl"
         >
-          CONTATTAMI
+          {{ $t("nav.contact") }}
         </NuxtLink>
       </li>
     </ul>

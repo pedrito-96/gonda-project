@@ -9,8 +9,7 @@ onMounted(() => {
     class="bg-black text-tertiary flex flex-col md:flex-row gap-2 items-center justify-between p-5"
   >
     <p class="max-md:order-2">
-      © {{ year }} Greta Pianegonda. Tutti i diritti riservati. Foto di
-      proprietà. Riproduzione vietata.
+      {{ $t("footer.rights", { year }) }}
     </p>
 
     <div class="socials flex items-center max-md:order-1 gap-2 md:gap-4">

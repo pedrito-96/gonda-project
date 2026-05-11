@@ -20,7 +20,7 @@ const {
           sizes="80vw md:80vw lg:90vw xl:90vw xxl:90vw"
           quality="90"
           src="./iceland.png"
-          alt="Hero image"
+          :alt="$t('alt.hero')"
         />
       </div>
     </div>
@@ -33,15 +33,12 @@ const {
         animateFromBottom,
       ]"
     >
-      <h1 style="--i: 1" class="text-4xl">Lorem</h1>
+      <h1 style="--i: 1" class="text-4xl">{{ $t("hero.title") }}</h1>
       <div style="--i: 2" class="relative">
         <p
           class="[&_a]:text-invert [&_a]:hover:text-invert text-paragraph-sm max-w-2xl pl-xl"
         >
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
-          praesentium aliquam ipsam eum nostrum quam, assumenda, molestiae ea
-          voluptas sunt earum qui non tempora totam blanditiis magni soluta
-          eaque sapiente?
+          {{ $t("hero.description") }}
         </p>
       </div>
     </div>
