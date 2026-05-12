@@ -19,7 +19,12 @@ const toggleMenu = () => {
   <div class="flex items-center justify-center my-4 mx-2 md:mx-4 text-tertiary">
     <div id="header-card" class="card px-8 py-2">
       <div class="flex flex-row justify-between items-center w-full">
-        <NuxtLink to="/" class="z-40 py-1 md:py-2">
+        <NuxtLink
+          to="/"
+          class="z-40 py-1 md:py-2"
+          aria-label="Greta Pianegonda — Biologa Nutrizionista, Home"
+          title="Greta Pianegonda — Biologa Nutrizionista"
+        >
           <Icon
             name="icon-logo-horizontal"
             class="text-[38px] md:text-[60px]"
