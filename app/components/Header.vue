@@ -48,7 +48,7 @@ const toggleMenu = () => {
         <AtomsMenuButton :is-open="isOpen" @toggle="toggleMenu" />
       </div>
 
-      <MoleculesMobileDrawer :is-open="isOpen" />
+      <MoleculesMobileDrawer :is-open="isOpen" @close="isOpen = false" />
     </div>
 
     <svg style="display: none">
