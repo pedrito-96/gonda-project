@@ -114,7 +114,7 @@ const locations = [
             <Icon name="icon-instagram" class="text-lg" />
           </NuxtLink>
           <NuxtLink
-            to="https://www.facebook.com/Biologa-Nutrizionista-Pianegonda"
+            to="https://www.facebook.com/profile.php?id=61589009683393"
             target="_blank"
             external
             aria-label="Facebook"

@@ -24,7 +24,7 @@ watch(y, (currentY) => {
       class="whatsapp shadow-sm hover:shadow-lg z-30 fixed bottom-4 right-4 rounded-full"
     >
       <a
-        href="https://wa.me/393420321446?text=Ciao!%20Vorrei%20prendere%20un%20appuntamento.%20Che%20disponibilità%20hai?%20Grazie!%20"
+        href="https://wa.me/393534918134?text=Ciao!%20Vorrei%20prendere%20un%20appuntamento.%20Che%20disponibilità%20hai?%20Grazie!%20"
         class="flex justify-center items-center"
       >
         <Icon name="icon-whatsapp" class="text-white text-5xl" />
