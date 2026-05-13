@@ -59,7 +59,11 @@
     "location_zane_addr": "Via Trento, 24 — 36010 (VI)",
     "location_zane_venue": "at Officina Botanica",
     "phone_label": "Phone",
-    "email_label": "Email"
+    "email_label": "Email",
+    "whatsappAriaLabel": "Contact me on whatsapp",
+    "facebookAriaLabel": "Go to Facebook page",
+    "instagramAriaLabel": "Go to Instagram profile",
+    "linkedinAriaLabel": "Go to Linkedin profile"
   },
   "form": {
     "title": "Write to me",
@@ -74,6 +78,7 @@
   },
   "alt": {
     "hero": "Portrait of Greta Pianegonda",
-    "isobars": "Isobars background"
+    "isobars": "Isobars background",
+    "whatsapp": "Whatsapp"
   }
 }

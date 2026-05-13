@@ -26,8 +26,9 @@ watch(y, (currentY) => {
       <a
         href="https://wa.me/393534918134?text=Ciao!%20Vorrei%20prendere%20un%20appuntamento.%20Che%20disponibilità%20hai?%20Grazie!%20"
         class="flex justify-center items-center"
+        :aria-label="$ts('contacts.whatsappAriaLabel')"
       >
-        <Icon name="icon-whatsapp" class="text-white text-5xl" />
+        <Icon name="icon-whatsapp" class="text-white text-5xl" aria-hidden />
       </a>
     </div>
     <Header

@@ -74,7 +74,7 @@ const locations = [
             <span
               class="w-10 h-10 rounded-full bg-tertiary/10 group-hover:bg-tertiary/20 flex items-center justify-center transition-colors"
             >
-              <Icon name="mdi:phone-outline" class="text-lg" />
+              <Icon name="mdi:phone-outline" class="text-lg" aria-hidden />
             </span>
             <div class="flex flex-col">
               <span class="text-xs uppercase tracking-wider text-tertiary/60">
@@ -92,7 +92,7 @@ const locations = [
             <span
               class="w-10 h-10 rounded-full bg-tertiary/10 group-hover:bg-tertiary/20 flex items-center justify-center transition-colors"
             >
-              <Icon name="mdi:email-outline" class="text-lg" />
+              <Icon name="mdi:email-outline" class="text-lg" aria-hidden />
             </span>
             <div class="flex flex-col">
               <span class="text-xs uppercase tracking-wider text-tertiary/60">
@@ -108,37 +108,37 @@ const locations = [
             to="https://www.instagram.com/nutrizionista_pianegonda/"
             target="_blank"
             external
-            aria-label="Instagram"
+            :aria-label="$ts('contacts.instagramAriaLabel')"
             class="w-10 h-10 rounded-full bg-tertiary/10 hover:bg-tertiary/20 flex items-center justify-center transition-colors"
           >
-            <Icon name="icon-instagram" class="text-lg" />
+            <Icon name="icon-instagram" class="text-lg" aria-hidden />
           </NuxtLink>
           <NuxtLink
             to="https://www.facebook.com/profile.php?id=61589009683393"
             target="_blank"
             external
-            aria-label="Facebook"
+            :aria-label="$ts('contacts.facebookAriaLabel')"
             class="w-10 h-10 rounded-full bg-tertiary/10 hover:bg-tertiary/20 flex items-center justify-center transition-colors"
           >
-            <Icon name="mdi:facebook" class="text-lg" />
+            <Icon name="mdi:facebook" class="text-lg" aria-hidden />
           </NuxtLink>
           <NuxtLink
             to="https://www.linkedin.com/in/greta-pianegonda-188ba6172/"
             target="_blank"
             external
-            aria-label="LinkedIn"
+            :aria-label="$ts('contacts.linkedinAriaLabel')"
             class="w-10 h-10 rounded-full bg-tertiary/10 hover:bg-tertiary/20 flex items-center justify-center transition-colors"
           >
-            <Icon name="icon-linkedin" class="text-lg" />
+            <Icon name="icon-linkedin" class="text-lg" aria-hidden />
           </NuxtLink>
           <NuxtLink
             :to="`https://wa.me/${phoneHref.replace('+', '')}`"
             target="_blank"
             external
-            aria-label="WhatsApp"
+            :aria-label="$ts('contacts.whatsappAriaLabel')"
             class="w-10 h-10 rounded-full bg-tertiary/10 hover:bg-tertiary/20 flex items-center justify-center transition-colors"
           >
-            <Icon name="icon-whatsapp" class="text-lg" />
+            <Icon name="icon-whatsapp" class="text-lg" aria-hidden />
           </NuxtLink>
         </div>
       </div>

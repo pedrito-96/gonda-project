@@ -25,7 +25,7 @@ const {
       </div>
     </div>
     <div
-      class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-black/10"
+      class="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-black/10"
     />
 
     <div

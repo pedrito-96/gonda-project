@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
-  css: ["./app/assets/css/main.css"],
+  css: ["@/assets/css/main.css"],
   runtimeConfig: {
     public: {
       formspree_id: process.env.NUXT_PUBLIC_FORMSPREE_ID,
@@ -57,10 +57,6 @@ export default defineNuxtConfig({
     metaBaseUrl: "https://nutrizionistapianegonda.it",
     localeCookie: "user-locale",
     canonicalQueryWhitelist: [],
-  },
-  alias: {
-    "@": "/<rootDir>/app",
-    "~": "/<rootDir>",
   },
   icon: {
     customCollections: [

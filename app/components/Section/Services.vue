@@ -11,6 +11,15 @@ declare global {
   }
 }
 
+const setIgTitle = () => {
+  // Instagram script usually runs and creates an iframe with the class 'instagram-media-rendered'
+  // or just looks for the iframe inside your wrapper
+  const iframe = document.querySelector("iframe.instagram-media");
+  if (iframe && !iframe.getAttribute("title")) {
+    iframe.setAttribute("title", "Instagram Post");
+  }
+};
+
 useHead({
   script: [
     {
@@ -20,6 +29,7 @@ useHead({
       onload: () => {
         if (window.instgrm) {
           window.instgrm.Embeds.process();
+          setTimeout(setIgTitle, 1000);
         }
       },
     },
@@ -29,6 +39,7 @@ useHead({
 onMounted(() => {
   if (window.instgrm) {
     window.instgrm.Embeds.process();
+    setTimeout(setIgTitle, 1000);
   }
 });
 </script>
@@ -74,6 +85,7 @@ onMounted(() => {
           <ClientOnly>
             <blockquote
               class="instagram-media"
+              title="Instagram post"
               data-instgrm-permalink="https://www.instagram.com/p/DYCz1W4CB82/?utm_source=ig_embed&amp;utm_campaign=loading"
               data-instgrm-version="14"
               style="
