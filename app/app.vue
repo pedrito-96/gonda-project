@@ -52,13 +52,13 @@ const jsonLd = computed(() => ({
     sameAs: [
       "https://www.instagram.com/nutrizionista_pianegonda/",
       "https://www.linkedin.com/in/greta-pianegonda-188ba6172/",
-      "https://www.facebook.com/Biologa-Nutrizionista-Pianegonda",
+      "https://www.facebook.com/profile.php?id=61589009683393",
     ],
   },
   sameAs: [
     "https://www.instagram.com/nutrizionista_pianegonda/",
     "https://www.linkedin.com/in/greta-pianegonda-188ba6172/",
-    "https://www.facebook.com/Biologa-Nutrizionista-Pianegonda",
+    "https://www.facebook.com/profile.php?id=61589009683393",
   ],
   areaServed: [
     { "@type": "AdministrativeArea", name: "Veneto" },
