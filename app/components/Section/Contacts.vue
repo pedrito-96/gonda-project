@@ -25,12 +25,14 @@ const locations = [
     >
       <div class="flex flex-col gap-8">
         <div class="flex flex-col gap-3">
-          <span class="text-xs uppercase tracking-[0.25em] text-tertiary/70">
+          <span
+            class="text-xs uppercase tracking-[0.25em] text-tertiary font-semibold"
+          >
             {{ $t("contacts.eyebrow") }}
           </span>
           <h2 class="text-section-title">{{ $t("contacts.title") }}</h2>
-          <p class="text-tertiary/90">{{ $t("contacts.intro1") }}</p>
-          <p class="text-tertiary/70 text-sm">{{ $t("contacts.intro2") }}</p>
+          <p class="text-tertiary">{{ $t("contacts.intro1") }}</p>
+          <p class="text-tertiary/95 text-sm">{{ $t("contacts.intro2") }}</p>
         </div>
 
         <div class="flex flex-col gap-4">
@@ -55,10 +57,10 @@ const locations = [
                   {{ $t(`contacts.location_${l.key}_name`) }}
                 </span>
               </div>
-              <span class="text-sm text-tertiary/85">
+              <span class="text-sm text-tertiary">
                 {{ $t(`contacts.location_${l.key}_addr`) }}
               </span>
-              <span class="text-xs text-tertiary/65 italic">
+              <span class="text-xs text-tertiary/95 italic">
                 {{ $t(`contacts.location_${l.key}_venue`) }}
               </span>
             </NuxtLink>
@@ -77,7 +79,9 @@ const locations = [
               <Icon name="mdi:phone-outline" class="text-lg" aria-hidden />
             </span>
             <div class="flex flex-col">
-              <span class="text-xs uppercase tracking-wider text-tertiary/60">
+              <span
+                class="text-xs uppercase tracking-wider text-tertiary/95 font-semibold"
+              >
                 {{ $t("contacts.phone_label") }}
               </span>
               <span class="font-medium">{{ phoneDisplay }}</span>
@@ -95,7 +99,9 @@ const locations = [
               <Icon name="mdi:email-outline" class="text-lg" aria-hidden />
             </span>
             <div class="flex flex-col">
-              <span class="text-xs uppercase tracking-wider text-tertiary/60">
+              <span
+                class="text-xs uppercase tracking-wider text-tertiary/95 font-semibold"
+              >
                 {{ $t("contacts.email_label") }}
               </span>
               <span class="font-medium break-all">{{ email }}</span>

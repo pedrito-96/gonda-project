@@ -54,7 +54,7 @@
 
       <button
         type="submit"
-        class="w-full bg-primary text-white font-bold py-2 px-4 rounded cursor-pointer hover:scale-102 hover:shadow-md transition-all"
+        class="w-full bg-secondary-dark text-tertiary font-bold py-2 px-4 rounded cursor-pointer hover:scale-102 hover:shadow-md transition-all"
       >
         {{ $t("form.submit") }}
       </button>

@@ -51,7 +51,9 @@ onMounted(() => {
   >
     <div class="max-w-6xl mx-auto w-full flex flex-col gap-12">
       <div class="flex flex-col gap-3 text-center">
-        <span class="text-xs uppercase tracking-[0.25em] text-secondary-dark">
+        <span
+          class="text-xs uppercase tracking-[0.25em] text-dark font-semibold"
+        >
           {{ $t("services.eyebrow") }}
         </span>
         <h2 class="text-section-title">{{ $t("services.title") }}</h2>

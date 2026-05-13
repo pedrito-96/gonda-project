@@ -9,11 +9,14 @@ const emit = defineEmits<{ toggle: [] }>();
       type="checkbox"
       class="hamburger__input"
       :checked="isOpen"
+      :aria-expanded="isOpen"
+      aria-controls="mobile-nav-drawer"
+      aria-label="Apri/chiudi menu di navigazione"
       @change="emit('toggle')"
     />
-    <span class="hamburger__line"></span>
-    <span class="hamburger__line"></span>
-    <span class="hamburger__line"></span>
+    <span class="hamburger__line" aria-hidden="true"></span>
+    <span class="hamburger__line" aria-hidden="true"></span>
+    <span class="hamburger__line" aria-hidden="true"></span>
   </label>
 </template>
 

@@ -6,7 +6,14 @@ const handleNavClick = () => emit("close");
 </script>
 
 <template>
-  <div role="menu" :aria-expanded="isOpen" class="menu-drawer w-full">
+  <nav
+    id="mobile-nav-drawer"
+    :data-open="isOpen"
+    :inert="!isOpen"
+    :aria-hidden="!isOpen"
+    aria-label="Menu di navigazione mobile"
+    class="menu-drawer w-full"
+  >
     <ul class="flex flex-col items-center gap-8 py-10 md:hidden">
       <li>
         <NuxtLink to="/#about-me" @click="handleNavClick">
@@ -30,7 +37,7 @@ const handleNavClick = () => emit("close");
         </NuxtLink>
       </li>
     </ul>
-  </div>
+  </nav>
 </template>
 
 <style scoped>
@@ -44,7 +51,7 @@ const handleNavClick = () => emit("close");
     opacity 0.35s ease;
 }
 
-[aria-expanded="true"].menu-drawer {
+[data-open="true"].menu-drawer {
   max-height: 400px;
   opacity: 1;
 }
