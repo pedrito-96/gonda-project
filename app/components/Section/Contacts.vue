@@ -18,10 +18,21 @@ const locations = [
 <template>
   <section
     id="contacts"
-    class="min-h-dvh bg-secondary-dark text-tertiary px-6 md:px-12 py-24 md:py-32"
+    class="relative min-h-dvh bg-secondary-dark text-tertiary px-6 md:px-12 py-24 md:py-32"
   >
+    <div class="absolute inset-0 z-0 opacity-10 w-full h-full">
+      <NuxtPicture
+        class="image-cover"
+        loading="lazy"
+        fetch-priority="low"
+        sizes="80vw md:80vw lg:90vw xl:90vw xxl:90vw"
+        quality="60"
+        src="./pittogramma.png"
+        aria-hidden
+      />
+    </div>
     <div
-      class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 pt-(--header-height)"
+      class="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 pt-(--header-height)"
     >
       <div class="flex flex-col gap-8">
         <div class="flex flex-col gap-3">
@@ -138,7 +149,7 @@ const locations = [
             <Icon name="icon-linkedin" class="text-lg" aria-hidden />
           </NuxtLink>
           <NuxtLink
-            :to="`https://wa.me/${phoneHref.replace('+', '')}`"
+            to="https://wa.me/393534918134?text=Ciao!%20Vorrei%20prendere%20un%20appuntamento.%20Che%20disponibilità%20hai?%20Grazie!%20"
             target="_blank"
             external
             :aria-label="$ts('contacts.whatsappAriaLabel')"

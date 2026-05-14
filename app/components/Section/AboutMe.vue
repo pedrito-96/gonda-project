@@ -47,13 +47,13 @@ const method = [
     >
       <NuxtPicture
         class="image-cover"
-        preload
         loading="lazy"
         fetch-priority="low"
         sizes="80vw md:80vw lg:90vw xl:90vw xxl:90vw"
-        quality="90"
+        quality="80"
         src="./isobars-light.png"
         :alt="$t('alt.isobars')"
+        aria-hidden
       />
     </div>
 
@@ -63,9 +63,7 @@ const method = [
       <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
         <AtomsAvatar class="shrink-0" />
         <div class="flex flex-col gap-4 text-center md:text-left">
-          <span
-            class="text-xs uppercase tracking-[0.25em] text-tertiary/70"
-          >
+          <span class="text-xs uppercase tracking-[0.25em] text-tertiary/70">
             {{ $t("about.eyebrow") }}
           </span>
           <h2 class="text-section-title">{{ $t("about.title") }}</h2>
