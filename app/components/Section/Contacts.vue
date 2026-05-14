@@ -29,6 +29,7 @@ const locations = [
         quality="60"
         src="./pittogramma.png"
         aria-hidden
+        alt="Pictogram logo"
       />
     </div>
     <div
