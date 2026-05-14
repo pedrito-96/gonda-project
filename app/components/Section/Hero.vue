@@ -1,37 +1,39 @@
 <script setup lang="ts">
 const {
   animationContainer,
-  isAnimationContainerInViewport,
+  isAnimationContainerInViewport, // Keep if needed elsewhere, otherwise remove
   animateFromBottom,
 } = useAnimationInView();
 </script>
+
 <template>
   <section
     class="relative w-full h-screen overflow-hidden px-gapped-x py-xxl flex flex-col justify-end"
   >
-    <div class="absolute inset-0">
-      <div class="w-full h-full relative">
-        <NuxtPicture
-          id="hero-img"
-          class="image-cover"
-          preload
-          loading="eager"
-          fetch-priority="high"
-          sizes="80vw md:80vw lg:90vw xl:90vw xxl:90vw"
-          quality="90"
-          src="./iceland.png"
-          :alt="$t('alt.hero')"
-        />
-      </div>
+    <div class="absolute inset-0 z-0 select-none pointer-events-none">
+      <NuxtPicture
+        id="hero-img"
+        class="w-full h-full object-cover"
+        preload
+        loading="eager"
+        fetch-priority="high"
+        decoding="async"
+        sizes="100vw sm:100vw md:100vw lg:100vw xl:100vw"
+        quality="80"
+        src="./iceland.webp"
+        :alt="$t('alt.hero')"
+        width="2000"
+        height="1250"
+      />
+      <div
+        class="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-black/10"
+      />
     </div>
-    <div
-      class="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-black/10"
-    />
 
     <div
       ref="animationContainer"
       :class="[
-        'relative bottom-0 left-0 w-fit max-w-3xl flex flex-col gap-5 justify-end m-6 md:m-20 backdrop-blur-sm bg-black/15 text-tertiary p-6 md:p-8 rounded-2xl border border-white/10',
+        'relative z-10 bottom-0 left-0 w-fit max-w-3xl flex flex-col gap-5 justify-end m-6 md:m-20 backdrop-blur-sm bg-black/15 text-tertiary p-6 md:p-8 rounded-2xl border border-white/10',
         animateFromBottom,
       ]"
     >
@@ -53,6 +55,7 @@ const {
       >
         {{ $t("hero.tagline") }}
       </p>
+
       <div style="--i: 4" class="flex flex-wrap gap-3 pt-2">
         <NuxtLink
           to="/#contacts"
@@ -70,3 +73,12 @@ const {
     </div>
   </section>
 </template>
+
+<style scoped>
+/* Ensure NuxtPicture's generated <img> scales correctly to fill its box */
+:deep(#hero-img img) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
