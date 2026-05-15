@@ -1,0 +1,25 @@
+{
+  "name": "Greta Pianegonda — Biologa Nutrizionista",
+  "short_name": "Pianegonda Nutrizionista",
+  "description": "Biologa Nutrizionista a Sarcedo e Zanè (Vicenza). Piani alimentari personalizzati, nutrizione sportiva, plant-based.",
+  "lang": "it-IT",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#d9dfec",
+  "theme_color": "#5e7e99",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pittogramma.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

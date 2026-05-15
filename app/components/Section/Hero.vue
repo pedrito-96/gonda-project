@@ -37,26 +37,27 @@ const {
         animateFromBottom,
       ]"
     >
-      <span
-        style="--i: 1"
-        class="text-xs md:text-sm uppercase tracking-[0.25em] text-tertiary/80"
-      >
-        {{ $t("hero.role") }}
-      </span>
       <h1
-        style="--i: 2"
-        class="text-4xl md:text-6xl font-medium leading-tight -mt-4"
+        style="--i: 1"
+        class="text-4xl md:text-6xl font-medium leading-tight -mt-4 flex flex-col"
       >
-        {{ $t("hero.name") }}
+        <span
+          class="text-xs md:text-sm uppercase tracking-[0.25em] text-tertiary/80"
+        >
+          {{ $t("hero.role") }}
+        </span>
+        <span>
+          {{ $t("hero.name") }}
+        </span>
       </h1>
       <p
-        style="--i: 3"
+        style="--i: 2"
         class="text-paragraph-sm md:text-lg max-w-2xl text-tertiary/90"
       >
         {{ $t("hero.tagline") }}
       </p>
 
-      <div style="--i: 4" class="flex flex-wrap gap-3 pt-2">
+      <div style="--i: 3" class="flex flex-wrap gap-3 pt-2">
         <NuxtLink
           to="/#contacts"
           class="cta py-2.5 px-5 bg-tertiary text-secondary-dark rounded-3xl font-medium hover:scale-105 transition-transform shadow-md"

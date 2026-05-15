@@ -1,10 +1,10 @@
 {
   "seo": {
-    "title": "Greta Pianegonda — Nutrition Biologist in Sarcedo and Zanè (VI)",
-    "description": "Nutrition Biologist in Sarcedo and Zanè (Vicenza, Italy). Personalized nutrition plans, sports nutrition and plant-based nutrition. Registered with the Order of Biologists of Veneto, Friuli Venezia Giulia and Trentino Alto Adige.",
-    "og_title": "Greta Pianegonda — Nutrition Biologist",
-    "og_description": "Food education for conscious choices. Studios in Sarcedo and Zanè (VI). Book a consultation.",
-    "keywords": "nutrition biologist, nutritionist Vicenza, nutritionist Sarcedo, nutritionist Zanè, nutritionist Thiene, personalized nutrition plans, sports nutrition, plant-based nutrition, vegetarian diet, vegan diet, food education, Greta Pianegonda"
+    "title": "Nutritionist in Thiene, Zanè and Sarcedo (Vicenza) — Greta Pianegonda",
+    "description": "Nutrition Biologist in the province of Vicenza, with offices in Thiene area in Zanè and Sarcedo. Personalized nutrition plans, sports nutrition and plant-based nutrition. Registered with the Order of Biologists.",
+    "og_title": "Greta Pianegonda — Nutrition Biologist in Thiene, Zanè and Sarcedo",
+    "og_description": "Food education for conscious choices. Studios in Thiene area in Zanè and Sarcedo, province of Vicenza. Book a consultation.",
+    "keywords": "nutritionist Thiene, nutritionist Zanè, nutritionist Sarcedo, nutritionist Vicenza province, nutrition biologist Vicenza, nutritionist Schio, nutritionist Marostica, nutritionist Alto Vicentino, personalized nutrition plans Thiene, sports nutrition Vicenza, plant-based nutrition, vegetarian diet, vegan diet, food education, Greta Pianegonda"
   },
   "nav": {
     "about": "ABOUT",
@@ -21,7 +21,7 @@
   "about": {
     "eyebrow": "About me",
     "title": "An approach built on food education",
-    "intro": "I'm Greta Pianegonda, Nutrition Biologist. My approach is grounded in food education — a tool that makes you autonomous and aware in your daily choices.",
+    "intro": "My name is Greta Pianegonda, Nutrition Biologist based in the province of Vicenza. I look forward to welcoming you to my offices in Zanè (Officina Botanica) and Sarcedo (Snatch Studio), just a few minutes from Thiene. My approach is rooted in nutrition education, a tool that empowers you to make informed and independent choices in your daily life.",
     "registry_label": "Registered with the Order of Biologists of",
     "registry_regions": "Veneto · Friuli Venezia Giulia · Trentino Alto Adige",
     "method_title": "My method",
@@ -48,16 +48,16 @@
     "instagramCtas": "View this post on Instagram to like, comment, or share"
   },
   "contacts": {
-    "eyebrow": "Where to find me",
+    "eyebrow": "Where to find me in the province of Vicenza",
     "title": "Contacts",
     "intro1": "Ready to start your journey?",
-    "intro2": "Reach out for a consultation or any question you may have.",
+    "intro2": "By appointment in the Thiene area at my offices in Zanè and Sarcedo, in the province of Vicenza. Reach out for a consultation or any question.",
     "locations_title": "Studios",
     "location_sarcedo_name": "Sarcedo",
-    "location_sarcedo_addr": "Via Generale A. dalla Chiesa, 5 — 36030 (VI)",
+    "location_sarcedo_addr": "Via Generale A. dalla Chiesa, 5 - 36030 Sarcedo (VI)",
     "location_sarcedo_venue": "at Snatch | Physiotherapy Studio",
     "location_zane_name": "Zanè",
-    "location_zane_addr": "Via Trento, 24 — 36010 (VI)",
+    "location_zane_addr": "Via Trento, 24 - 36010 Zanè (VI)",
     "location_zane_venue": "at Officina Botanica",
     "phone_label": "Phone",
     "email_label": "Email",

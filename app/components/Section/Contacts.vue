@@ -58,20 +58,22 @@ const locations = [
               :to="l.map"
               target="_blank"
               external
+              rel="noopener"
               class="group bg-tertiary/5 hover:bg-tertiary/10 border border-tertiary/15 rounded-2xl p-5 flex flex-col gap-2 transition-colors"
             >
               <div class="flex items-center gap-2">
                 <Icon
                   name="mdi:map-marker-outline"
                   class="text-xl text-tertiary/80"
+                  aria-hidden
                 />
-                <span class="font-medium">
+                <h3 class="font-medium not-italic">
                   {{ $t(`contacts.location_${l.key}_name`) }}
-                </span>
+                </h3>
               </div>
-              <span class="text-sm text-tertiary">
+              <address class="text-sm text-tertiary not-italic">
                 {{ $t(`contacts.location_${l.key}_addr`) }}
-              </span>
+              </address>
               <span class="text-xs text-tertiary/95 italic">
                 {{ $t(`contacts.location_${l.key}_venue`) }}
               </span>

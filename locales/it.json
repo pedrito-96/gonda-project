@@ -1,10 +1,10 @@
 {
   "seo": {
-    "title": "Greta Pianegonda — Biologa Nutrizionista a Sarcedo e Zanè (VI)",
-    "description": "Biologa Nutrizionista a Sarcedo e Zanè (Vicenza). Piani alimentari personalizzati, nutrizione sportiva e alimentazione plant-based. Iscritta all'Ordine dei Biologi del Veneto, Friuli Venezia Giulia e Trentino Alto Adige.",
-    "og_title": "Greta Pianegonda — Biologa Nutrizionista",
-    "og_description": "Educazione alimentare per scelte consapevoli. Studi a Sarcedo e Zanè (VI). Prenota una consulenza.",
-    "keywords": "biologa nutrizionista, nutrizionista Vicenza, nutrizionista Sarcedo, nutrizionista Zanè, nutrizionista Thiene, piani alimentari personalizzati, nutrizione sportiva, alimentazione plant-based, dieta vegetariana, dieta vegana, educazione alimentare, Greta Pianegonda"
+    "title": "Nutrizionista Thiene, Zanè e Sarcedo (VI) — Greta Pianegonda Biologa",
+    "description": "Biologa Nutrizionista in provincia di Vicenza, con studi in zona Thiene a Zanè e Sarcedo. Piani alimentari personalizzati, nutrizione sportiva e alimentazione plant-based. Iscritta all'Ordine dei Biologi.",
+    "og_title": "Greta Pianegonda — Biologa Nutrizionista a Thiene, Zanè e Sarcedo",
+    "og_description": "Educazione alimentare per scelte consapevoli. Studi in zona Thiene a Zanè e Sarcedo, provincia di Vicenza. Prenota una consulenza.",
+    "keywords": "nutrizionista Thiene, nutrizionista Zanè, nutrizionista Sarcedo, nutrizionista provincia di Vicenza, biologa nutrizionista Vicenza, nutrizionista Schio, nutrizionista Marostica, nutrizionista Alto Vicentino, piani alimentari personalizzati Thiene, nutrizione sportiva Vicenza, alimentazione plant-based, dieta vegetariana, dieta vegana, educazione alimentare, Greta Pianegonda"
   },
   "nav": {
     "about": "CHI SONO",
@@ -21,7 +21,7 @@
   "about": {
     "eyebrow": "Chi sono",
     "title": "Un approccio basato sull'educazione alimentare",
-    "intro": "Sono Greta Pianegonda, Biologa Nutrizionista. Il mio approccio si fonda sull'educazione alimentare, strumento che rende autonomi e consapevoli nelle proprie scelte quotidiane.",
+    "intro": "Sono Greta Pianegonda, Biologa Nutrizionista in provincia di Vicenza. Sono pronta a ricevervi presso gli studi di Zanè (Officina Botanica) e Sarcedo (Snatch Studio), a pochi minuti da Thiene. Il mio approccio si fonda sull'educazione alimentare, strumento che rende autonomi e consapevoli nelle proprie scelte quotidiane.",
     "registry_label": "Iscritta all'Ordine dei Biologi di",
     "registry_regions": "Veneto · Friuli Venezia Giulia · Trentino Alto Adige",
     "method_title": "Il metodo 3A",
@@ -48,16 +48,16 @@
     "instagramCtas": "Vedi il su Instagram per mettere mi piace, commentare o condividerlo"
   },
   "contacts": {
-    "eyebrow": "Dove trovarmi",
+    "eyebrow": "Dove trovarmi in provincia di Vicenza",
     "title": "Contatti",
     "intro1": "Pronto a iniziare il tuo percorso?",
-    "intro2": "Contattami per una consulenza o per qualsiasi domanda.",
+    "intro2": "Ricevo su appuntamento in zona Thiene nei miei studi di Zanè  e Sarcedo, in provincia di Vicenza. Contattami per una consulenza o per qualsiasi domanda.",
     "locations_title": "Studi",
     "location_sarcedo_name": "Sarcedo",
-    "location_sarcedo_addr": "Via Generale A. dalla Chiesa, 5 — 36030 (VI)",
+    "location_sarcedo_addr": "Via Generale A. dalla Chiesa, 5 - 36030 Sarcedo (VI)",
     "location_sarcedo_venue": "presso Snatch | Studio di Fisioterapia",
     "location_zane_name": "Zanè",
-    "location_zane_addr": "Via Trento, 24 — 36010 (VI)",
+    "location_zane_addr": "Via Trento, 24 - 36010 Zanè (VI)",
     "location_zane_venue": "presso Officina Botanica",
     "phone_label": "Telefono",
     "email_label": "Email",

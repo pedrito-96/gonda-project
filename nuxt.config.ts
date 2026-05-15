@@ -17,7 +17,11 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: { lang: "it" },
       link: [
-        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        { rel: "icon", type: "image/png", sizes: "180x180", href: "/favicon.ico" },
+        { rel: "icon", type: "image/png", sizes: "512x512", href: "/pittogramma.png" },
+        { rel: "apple-touch-icon", sizes: "180x180", href: "/favicon.ico" },
+        { rel: "shortcut icon", href: "/favicon.ico" },
+        { rel: "manifest", href: "/site.webmanifest" },
         { rel: "canonical", href: "https://nutrizionistapianegonda.it/" },
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {
